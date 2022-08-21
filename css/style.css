@@ -78,6 +78,7 @@ p {
 
 .l-heading {
     font-size: 40px;
+    line-height: 1.2;
 }
 
 .py-1 {
@@ -103,7 +104,7 @@ p {
     color: #fff;
 }
 
-.navbar h1 {
+.navbar .logo {
     float: left;
     padding-top: 20px;
 }
@@ -129,6 +130,8 @@ p {
     color: #f7c08a;
 }
 
+
+
 .showcase {
     background: url('../img/showcase.jpg') 
     no-repeat center center/cover;
@@ -152,7 +155,7 @@ p {
 }
 
 #home-info {
-    height: 400px;
+    height: 450px;
 }
 
 #home-info .info-img {
@@ -207,7 +210,7 @@ p {
 }
 
 #testimonials {
-    height: 600px;
+    height: 100%;
      background: url('../img/test-bg.jpg') no-repeat 
     center center/cover;
     padding-top: 100px;
@@ -267,5 +270,9 @@ p {
     background-color: #444;
     color: #fff;
     padding: 20px;
+}
+
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
 }
 
